@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply max-w-[90%] w-[1090px] mx-auto;
+  background-color: #000000;
+}
+
+
+.colorBg{
+  background-color: #15161ccc;
+}
+
+.bg-portfolio{
+  background-color: #f0bf2d;
+}
+
+.subtitle {
+  font-family: var(--font-poppins);
+}
+
+.title {
+  font-family: var(--font-tenor);
+  font-weight: 600;
+  overflow-y: hidden;
+  color: #f0bf2d;
+
+}
+
+.p-color{
+  color: #f0bf2d;
+}
+
+.shadow-box {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TuEstilo.css */
+
+/* Estilos predeterminados para 'menu' */
+
+
+/* Estilos para pantallas grandes (lg) */
+
+ 
+
