@@ -23,8 +23,7 @@ const ContactHome = () => {
           </h1>
 
           <p className="flex-1 subtitle font-medium text-lg text-white">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
-            possimus accusantium magni fugiat nostrum ea!
+          My main focus in front-end development is directed towards creating exceptional visual experiences. I actively engage in enhancing the aesthetics and usability of the site.
           </p>
           <div className="flex flex-col lg:flex-row items-center gap-4 justify-self-end">
             <a
@@ -34,22 +33,22 @@ const ContactHome = () => {
               Contact me
             </a>
             <div className="flex items-center gap-4">
-              <Link href="https://github.com/julianvidela">
+              <Link href="https://github.com/julianvidela" target="_blank">
                 <SocialButton bgColor="black">
                   <Github className="w-6 h-6" />
                 </SocialButton>
               </Link>
-              <Link href="https://instagram.com/julianvidela_?igshid=MzMyNGUyNmU2YQ==">
+              <Link href="https://instagram.com/julianvidela_?igshid=MzMyNGUyNmU2YQ==" target="_blank">
                 <SocialButton bgColor="instagram">
                   <Instagram className="w-5 h-5" />
                 </SocialButton>
               </Link>
-              <Link href="mailto:julianvyd@gmail.com?subject=Offer%20Inquiry&body=Hi,%20how%20can%20I%20help%20you?">
+              <Link href="mailto:julianvyd@gmail.com?subject=Offer%20Inquiry&body=Hi,%20how%20can%20I%20help%20you?" target="_blank">
                 <SocialButton bgColor="twitter">
                   <Mail className="w-6 h-6" />
                 </SocialButton>
               </Link>
-              <Link href="https://www.linkedin.com/in/julian-videla-87857a253/">
+              <Link href="https://www.linkedin.com/in/julian-videla-87857a253/" target="_blank">
                 <SocialButton bgColor="linkedin">
                   <Linkedin className="w-5 h-5" />
                 </SocialButton>

@@ -55,6 +55,8 @@ export default function Home() {
           imgUrl="/project-2.png"
           description="personal porfolio web"
           bgColor="#fff"
+          urlLink="https://julianvidela.vercel.app/"
+          gitLink="https://github.com/julianvidela/portfolio3.0.git"
           
         />
         <Project
@@ -62,6 +64,8 @@ export default function Home() {
           imgUrl="/project-1.png"
           description="sneaker blog"
           bgColor="#fff"
+          urlLink="https://fanciful-mousse-4580db.netlify.app/"
+          gitLink="https://github.com/julianvidela/Stoock.github.io.git"
           
 
         />

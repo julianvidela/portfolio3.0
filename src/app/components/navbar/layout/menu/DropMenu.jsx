@@ -60,7 +60,7 @@ const DropMenu = ({ handleLinkClick }) => {
               animate="enter"
               exit="exit"
             >
-              <a href={link.to} smooth={true} offset={-270} duration={600} onClick={handleClick}>
+              <a href={link.to} smooth={true} offset={-270} duration={600} onClick={handleClick} target="_blank">
                 {link.title}
               </a>
             </motion.div>
