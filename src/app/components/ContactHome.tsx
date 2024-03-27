@@ -1,5 +1,5 @@
 "use client"
-import React from "react";
+
 import { motion } from "framer-motion";
 import SocialButton from "../components/navbar/layout/SocialButton";
 import Github from "../../../public/github.svg";
@@ -12,22 +12,31 @@ const ContactHome = () => {
   return (
     <>
       <section
-        className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-4 mb-4"
+        className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] p-7 mb-4 gap-4"
         id="Home"
       >
-        <div className="h-[32rem] md:h-[34rem] lg:h-[30rem] rounded-3xl p-7 flex flex-col gap-4 shadow-box colorBg">
-          <h1 className="text-4xl title">
+        <motion.div
+         initial="hidden"
+         whileInView="visible"
+         viewport={{once:true ,amount:0.5}}
+         transition={{delay:0.3,duration:0.5}}
+         variants={{
+          hidden:{opacity:0 ,x: -50},
+          visible:{opacity:1 , x:0},
+         }}
+         className="h-[32rem] md:h-[34rem] lg:h-[25rem] rounded-3xl  flex flex-col gap-4 shadow-box colorBg">
+          <h1 className="text-4xl text-white">
             Hi, I&apos;m Julian.
             <br />
-            <span className="text-white title">Front-end Developer</span>
+            <span className="text-white">Front-end Developer</span>
           </h1>
 
-          <p className="flex-1 subtitle font-medium text-lg text-white">
+          <p className="flex-1 subtitle font-medium text-[16px] text-zinc-400">
           My main focus in front-end development is directed towards creating exceptional visual experiences. I actively engage in enhancing the aesthetics and usability of the site.
           </p>
           <div className="flex flex-col lg:flex-row items-center gap-4 justify-self-end">
             <a
-              href="https://1drv.ms/b/s!Av0NuIn2vREOlGHPhCwlXrkk2ZdP?e=jhjpbM"
+              href="https://drive.google.com/file/d/1HbXEJkmK4P_UsbioZDEIWOgXwX0_boIT/view?usp=sharing"
               className="bg-white text-center w-[70%] font-medium text-black py-3 px-12 rounded-full lg:w-auto hover:bg-black hover:text-white duration-300"
             >
               Contact me
@@ -55,8 +64,18 @@ const ContactHome = () => {
               </Link>
             </div>
           </div>
-        </div>
-        <motion.div className="h-[30rem] bg-[url('/stitch.jpg')] p-8 bg-cover bg-center rounded-3xl shadow-box" />
+        </motion.div>
+        <motion.div
+         initial="hidden"
+         whileInView="visible"
+         viewport={{once:true ,amount:0.5}}
+         transition={{delay:0.4,duration:0.5}}
+         variants={{
+          hidden:{opacity:0 ,x: 50},
+          visible:{opacity:1 , x:0},
+         }}
+
+         className="h-[25rem] bg-[url('/stitch.jpg')]  bg-cover bg-center rounded-3xl shadow-box" />
       </section>
     </>
   );

@@ -2,19 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   @apply max-w-[90%] w-[1090px] mx-auto;
+  
   background-color: #000000;
 }
 
 
-.colorBg{
-  background-color: #15161ccc;
-}
 
-.bg-portfolio{
-  background-color: #f0bf2d;
+.bg-portfolio {
+ 
+  background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
 }
 
 .subtitle {
@@ -25,11 +23,10 @@ body {
   font-family: var(--font-tenor);
   font-weight: 600;
   overflow-y: hidden;
-  color: #f0bf2d;
-
+  color: #8868f8;
 }
 
-.p-color{
+.p-color {
   color: #f0bf2d;
 }
 
@@ -38,25 +35,4 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* TuEstilo.css */
-
-/* Estilos predeterminados para 'menu' */
-
-
-/* Estilos para pantallas grandes (lg) */
-
- 
-
+  

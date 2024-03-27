@@ -1,10 +1,7 @@
 "use client";
 
-import React from "react";
 import Github from "../../../public/github.svg";
 import LinkUrl from "../../../public/link.svg";
-import Link from "next/link";
-import { link } from "fs";
 
 interface Props {
   name?: string | undefined;
@@ -22,7 +19,7 @@ const Project: React.FC<Props> = ({
   imgUrl = "/project-1.png",
   bgColor = "#f9fafb",
   dark = false,
-  urlLink = "//www.youtube.com/shorts/t8Otf8XJx_c",
+  urlLink = "https://www.youtube.com/watch?v=v8zT3O_xsDg&ab_channel=Marendez",
   gitLink = "https://github.com",
 }) => {
   return (

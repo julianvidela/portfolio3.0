@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import {Tenor_Sans,Poppins } from 'next/font/google';
+import Background from './components/ui/backGround';
+
+
+
 const tenor = Tenor_Sans({
   weight: ['400'],
   style: [ 'normal'],
@@ -42,6 +46,8 @@ export default function RootLayout({
     <html lang="en">
       
       <body className={` ${tenor.variable} ${poppins .variable}`}>
+        <Background/>
+        
         {children}
       </body>
     </html>

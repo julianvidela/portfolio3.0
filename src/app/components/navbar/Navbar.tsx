@@ -18,14 +18,23 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex md:flex justify-between items-center py-4 px-2">
-      <div className="flex items-center gap-[1ch]">
+    <nav className="flex md:flex justify-between items-center mt-4 px-7">
+      <motion.div
+       initial="hidden"
+       whileInView="visible"
+       viewport={{once:true ,amount:0.5}}
+       transition={{delay:0.2,duration:0.5}}
+       variants={{
+        hidden:{opacity:0 ,x: -50},
+        visible:{opacity:1 , x:0},
+       }}
+       className="flex items-center gap-[1ch]">
         <div className="h-5 w-5 rounded-full bg-portfolio" />
         <span className="text-sm font-semibold tracking-widest text-white">
           PORTFOLIO
         </span>
-      </div>
-      <motion.div className="hidden lg:flex gap-12 text-sm text-zinc-400 subtitle cursor-pointer">
+      </motion.div>
+      <motion.div className="hidden lg:flex gap-12 text-sm text-white subtitle cursor-pointer">
         {linksNav.map((link, index) => (
           <motion.div
             key={index}
