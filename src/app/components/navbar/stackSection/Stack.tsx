@@ -4,7 +4,7 @@ import { tec } from "../stackSection/dataTec";
 
 const Stack = () => {
   return (
-    <div className="grid place-items-center grid-cols-2 md:grid-cols-5 gap-7">
+    <div className="grid place-items-center grid-cols-2 md:grid-cols-5 gap-7 py-8">
       {tec.map(({ icon }, index) => (
         <div key={index} className="flex flex-col justify-center items-center">
           <div className="h-full w-full p-6">{icon}</div>

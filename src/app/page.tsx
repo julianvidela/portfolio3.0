@@ -38,7 +38,7 @@ export default function Home() {
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
           }}
-          className="h-[34rem] md:h-[25rem] rounded-3xl p-7 lg:h-[22rem] flex flex-col shadow-box colorBg"
+          className="h-[28rem] md:h-[25rem] rounded-3xl p-7 lg:h-[22rem] flex flex-col shadow-box colorBg"
         >
           <About />
         </motion.div>
@@ -54,7 +54,7 @@ export default function Home() {
           hidden: { opacity: 0, y: 50 },
           visible: { opacity: 1, y: 0 },
         }}
-        className="h-[33rem] md:h-[16rem] rounded-3xl p-6 mb-4 shadow-box grid items-center  colorBg"
+        className="h-[33rem] md:h-[16rem] rounded-3xl  shadow-box grid items-center  colorBg"
         id="Stack"
       >
         <div>
@@ -65,7 +65,7 @@ export default function Home() {
 
       {/* Sección "Projects" */}
       <section
-        className="grid grid-cols-1 lg:grid-cols-2 my-4 gap-4"
+        className="grid grid-cols-1 lg:grid-cols-2 my-14 gap-4"
         id="Projects"
       >
         {/* Contenido de la sección Projects */}
@@ -124,6 +124,7 @@ export default function Home() {
               bgColor="#fff"
               urlLink="https://ai-decor.vercel.app/"
               gitLink="https://github.com/julianvidela/AI-decor.git"
+              
             />
           </motion.div>
       </section>
