@@ -73,26 +73,7 @@ export default function Home() {
          initial="hidden"
          whileInView="visible"
          viewport={{once:true ,amount:0.5}}
-         transition={{delay:0.7,duration:0.5}}
-         variants={{
-          hidden:{opacity:0 ,y: 50},
-          visible:{opacity:1 , y:0},
-         }}
-        >
-          <Project
-            name="Portfolio"
-            imgUrl="/project-2.png"
-            description="personal porfolio web"
-            bgColor="#fff"
-            urlLink="https://julianvidela.vercel.app/"
-            gitLink="https://github.com/julianvidela/portfolio3.0.git"
-          />
-        </motion.div>
-        <motion.div
-         initial="hidden"
-         whileInView="visible"
-         viewport={{once:true ,amount:0.5}}
-         transition={{delay:0.7,duration:0.4}}
+         transition={{delay:0.8,duration:0.5}}
          variants={{
            hidden:{opacity:0 ,y: 50},
            visible:{opacity:1 , y:0},
@@ -111,11 +92,11 @@ export default function Home() {
            initial="hidden"
            whileInView="visible"
            viewport={{once:true ,amount:0.5}}
-           transition={{delay:0.8,duration:0.4}}
+           transition={{delay:0.9,duration:0.5}}
            variants={{
-            hidden:{opacity:0 ,y: 50},
+             hidden:{opacity:0 ,y: 50},
             visible:{opacity:1 , y:0},
-           }}
+          }}
           >
             <Project
               name="AI Decor"
@@ -125,6 +106,25 @@ export default function Home() {
               urlLink="https://ai-decor.vercel.app/"
               gitLink="https://github.com/julianvidela/AI-decor.git"
               
+            />
+          </motion.div>
+          <motion.div
+           initial="hidden"
+           whileInView="visible"
+           viewport={{once:true ,amount:0.5}}
+           transition={{delay:0.7,duration:0.5}}
+           variants={{
+            hidden:{opacity:0 ,y: 50},
+            visible:{opacity:1 , y:0},
+           }}
+          >
+            <Project
+              name="Portfolio"
+              imgUrl="/project-2.png"
+              description="personal porfolio web"
+              bgColor="#fff"
+              urlLink="https://julianvidela.vercel.app/"
+              gitLink="https://github.com/julianvidela/portfolio3.0.git"
             />
           </motion.div>
       </section>
