@@ -1,6 +1,6 @@
 // components/Background.js
 
-import { Children } from "react";
+
 
 const Background = () => {
   return (
