@@ -28,11 +28,11 @@ const Project: React.FC<Props> = ({
           
         </div>
    
-        <div className="h-[110px]">
+        <div>
           <h2 className="from-neutral-300 text-lg subtitle text-white ">
             {name}
           </h2>
-          <p className="dark:text-zinc-300 text-sm subtitle text-zinc-400">
+          <p className=" h-auto dark:text-zinc-300 text-sm subtitle text-zinc-400">
             {description}
           </p>
         </div>
