@@ -77,6 +77,7 @@ const ContactHome = () => {
 
          className="h-[25rem] bg-[url('/stitch.jpg')]  bg-cover bg-center rounded-3xl shadow-box" />
       </section>
+        
     </>
   );
 };

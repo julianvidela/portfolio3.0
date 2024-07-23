@@ -23,7 +23,7 @@ const Project: React.FC<Props> = ({
   return (
     <div
       className="h-[420px] rounded-3xl  flex flex-col card-pro p-4 gap-3 justify-between ">
-        <div  className=" w-[500px] h-[220px]  rounded-xl flex justify-between  bg-cover bg-no-repeat "
+        <div  className="h-[220px] w-full   rounded-xl flex justify-between bg-center  bg-cover bg-no-repeat "
         style={{ backgroundImage: `url('${imgUrl}')` }} >
           
         </div>
@@ -48,8 +48,7 @@ const Project: React.FC<Props> = ({
               <LinkUrl className=" w-4 h-4" />
             </div>
           </a>
-        </div>
-      
+        </div>     
     </div>
   );
 };
